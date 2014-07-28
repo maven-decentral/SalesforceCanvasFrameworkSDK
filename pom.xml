@@ -3,8 +3,8 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>sfdc</groupId>
-    <version>1.0-SNAPSHOT</version>
+    <groupId>com.salesforce</groupId>
+    <version>29.0-SNAPSHOT</version>
     <name>Salesforce Canvas Framework SDK</name>
     <artifactId>sfdc-canvas-sdk</artifactId>
 
@@ -71,6 +71,17 @@
         </dependency>
 
     </dependencies>
+
+    <distributionManagement>
+        <repository>
+            <id>maven-decentral.github.io-releases</id>
+            <url>file:///${basedir}/../maven-decentral.github.io/m2/releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>maven-decentral.github.io-snapshots</id>
+            <url>file:///${basedir}/../maven-decentral.github.io/m2/snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
 
     <build>
         <plugins>

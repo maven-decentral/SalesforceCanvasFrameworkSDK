@@ -24,10 +24,7 @@
  * POSSIBILITY OF SUCH DAMAGE.
  */
 
-package canvas;
-
-import java.util.HashMap;
-import java.util.Map;
+package com.salesforce.canvas;
 
 import org.codehaus.jackson.annotate.JsonIgnoreProperties;
 import org.codehaus.jackson.annotate.JsonProperty;

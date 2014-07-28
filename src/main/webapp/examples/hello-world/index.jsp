@@ -1,4 +1,4 @@
-<%@ page import="canvas.SignedRequest" %>
+<%@ page import="com.salesforce.canvas.SignedRequest" %>
 <%@ page import="java.util.Map" %>
 <%
     // Pull the signed request out of the request body and verify/decode it.

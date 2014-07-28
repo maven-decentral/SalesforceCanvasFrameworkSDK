@@ -24,7 +24,7 @@
  * POSSIBILITY OF SUCH DAMAGE.
  */
 
-package canvas;
+package com.salesforce.canvas;
 
 import java.util.Locale;
 
